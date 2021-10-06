@@ -1,5 +1,6 @@
 package com.backexemplo.controller;
 
+
 import com.backexemplo.entity.Pessoa;
 import com.backexemplo.service.PessoaService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,10 +15,10 @@ import java.util.List;
 public class PessoaController {
 
     @Autowired
-    PessoaService pessoaService;
+    private PessoaService pessoaService;
 
     @GetMapping
-    public List<Pessoa> listar(){
+    public List<Pessoa> listar() {
         return pessoaService.listar();
     }
 }

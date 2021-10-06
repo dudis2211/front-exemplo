@@ -1,5 +1,6 @@
 package com.backexemplo.entity;
 
+
 import lombok.*;
 
 import javax.persistence.*;
@@ -9,9 +10,8 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@EqualsAndHashCode
 @Entity
-@Table(name = "Pessoa")
+@Table(name = "pessoa")
 public class Pessoa {
 
     @Id
@@ -23,4 +23,5 @@ public class Pessoa {
 
     @Column
     private String sobrenome;
+
 }

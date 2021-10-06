@@ -7,8 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-    // nessa classe pode conter regras de negocio
-
+    // nessa classe pode conter regras de negocios
 @Service
 public class PessoaService {
 
@@ -17,5 +16,6 @@ public class PessoaService {
 
     public List<Pessoa> listar(){
         return pessoaRepository.findAll();
+
     }
 }
