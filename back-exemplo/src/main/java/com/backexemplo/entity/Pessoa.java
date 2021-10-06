@@ -1,14 +1,13 @@
 package com.backexemplo.entity;
 
-
 import lombok.*;
 
 import javax.persistence.*;
 
+@AllArgsConstructor
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 @ToString
 @Entity
 @Table(name = "pessoa")
@@ -23,5 +22,4 @@ public class Pessoa {
 
     @Column
     private String sobrenome;
-
 }
