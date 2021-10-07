@@ -13,6 +13,10 @@ export class AppComponent {
 
   }
 
+  adicionarPessoa(){
+    this.router.navigate(["adicionar"]);
+  }
+
   getPessoa(){
     this.router.navigate(["listar"]);
   }

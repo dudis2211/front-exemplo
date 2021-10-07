@@ -7,11 +7,13 @@ import { ListarComponent } from './Pessoa/listar/listar.component';
 import { FormsModule } from '@angular/forms';
 import { ServiceService } from './service/service.service';
 import { HttpClientModule } from '@angular/common/http';
+import { AdicionarComponent } from './Pessoa/adicionar/adicionar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListarComponent,
+    AdicionarComponent,
     
   ],
   imports: [
