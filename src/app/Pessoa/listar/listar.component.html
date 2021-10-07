@@ -14,10 +14,10 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="text-center">
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                    <tr *ngFor="let pessoa of listaPessoa" class="text-center">
+                        <td>{{ pessoa.id }}</td>
+                        <td>{{ pessoa.nome }}</td>
+                        <td>{{ pessoa.sobrenome }}</td>
                         <td>
                             <button class="btn btn-warning">Editar</button>
                             <button class="btn btn-danger">Excluir</button>

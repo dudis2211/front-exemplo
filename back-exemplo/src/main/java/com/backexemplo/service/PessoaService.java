@@ -1,7 +1,7 @@
 package com.backexemplo.service;
 
 import com.backexemplo.entity.Pessoa;
-import com.backexemplo.repository.PessoaRepository;
+import com.backexemplo.repositories.PessoaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
